@@ -10,6 +10,10 @@ This project is a feature-rich, real-time polling and quiz application built for
 * **Backend (Deployed on Render):** [https://live-polling-system-n73u.onrender.com](https://live-polling-system-n73u.onrender.com)
 
 
+
+[screen-capture.webm](https://github.com/user-attachments/assets/ca998aa9-2ea2-4321-af42-059d6ff81da0)
+
+
 ---
 
 ## ✨ Features
@@ -119,3 +123,24 @@ npm run dev
     - Use the dashboard to create either Multiple Choice or Written Answer questions.
     - Set a duration, fill in the details, and click "Ask Question".
     - Monitor live results, view the poll history, manage connected students, and interact via chat.
+
+## 🔮 Future Scope & Improvements
+
+This project provides a solid foundation that can be extended with several powerful features to create a complete educational tool. The following are planned for future development:
+
+1.  **User Authentication & Persistent Profiles:**
+    * **Implementation:** Replace the current session-based name entry with a full-fledged user authentication system (Login/Register).
+    * **Technology:** Integrate a SQL database like **PostgreSQL** or **MySQL** to store user credentials and profiles.
+    * **Benefit:** This will allow students and teachers to have persistent accounts, track their long-term performance, and save created quizzes.
+
+2.  **Advanced Quiz Sessions & Scoring:**
+    * **Implementation:** Allow teachers to group multiple questions into a named "Quiz Session."
+    * **Benefit:** Instead of asking one-off questions, a teacher could launch a complete, pre-made quiz. The system would automatically track scores for each student throughout the session and display a final leaderboard.
+
+3.  **Enhanced Teacher Analytics Dashboard:**
+    * **Implementation:** Create a new dashboard page where teachers can view detailed analytics for past sessions.
+    * **Benefit:** Teachers could see question-by-question performance for the whole class (e.g., "70% of students got Question 3 wrong"), identify difficult topics, and track individual student progress over time.
+
+4.  **Support for More Question Types:**
+    * **Implementation:** Add support for other answer formats like "True/False" or polls where students can select multiple correct options.
+    * **Benefit:** This would provide teachers with greater flexibility in creating engaging content for their students.
