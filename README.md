@@ -6,8 +6,9 @@ This project is a feature-rich, real-time polling and quiz application built for
 
 ## 🚀 Live Demo
 
-* **Frontend (Client):** `[YOUR_HOSTED_FRONTEND_URL]`
-* **Backend (Server):** `[YOUR_HOSTED_BACKEND_URL]`
+* **Frontend (Deployed on Netlify):** [https://live-polling-system-shubh.netlify.app/](https://live-polling-system-shubh.netlify.app/)
+* **Backend (Deployed on Render):** [https://live-polling-system-n73u.onrender.com](https://live-polling-system-n73u.onrender.com)
+
 
 ---
 
