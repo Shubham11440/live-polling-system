@@ -1,8 +1,17 @@
+import { Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import JoinPage from './pages/JoinPage'
+import TeacherPage from './pages/TeacherPage'
+import StudentPage from './pages/StudentPage'
+
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen flex items-center justify-center text-white">
-      <h1 className="text-4xl font-bold">Live Polling System</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/join" element={<JoinPage />} />
+      <Route path="/teacher" element={<TeacherPage />} />
+      <Route path="/student" element={<StudentPage />} />
+    </Routes>
   )
 }
 
