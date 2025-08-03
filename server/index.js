@@ -19,10 +19,10 @@ const io = new Server(server, {
 let currentPoll = null
 let pollHistory = []
 let connectedStudents = {}
-
 let pollTimer
 
 io.on('connection', (socket) => {
+  console.log(`User Connected: ${socket.id}`)
 
   socket.on('student_join', (studentName) => {
     connectedStudents[socket.id] = studentName
@@ -116,6 +116,7 @@ io.on('connection', (socket) => {
   })
 
   socket.on('disconnect', () => {
+    console.log('User Disconnected', socket.id)
     delete connectedStudents[socket.id]
     io.emit('student_list_update', Object.values(connectedStudents))
   })
